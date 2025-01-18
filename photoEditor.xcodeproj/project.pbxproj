@@ -10,11 +10,16 @@
 		8D63DAF12D082F370094A8D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D63DAEB2D082F370094A8D1 /* Preview Assets.xcassets */; };
 		8D63DAF22D082F370094A8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D63DAED2D082F370094A8D1 /* Assets.xcassets */; };
 		8D63DAF42D082F370094A8D1 /* photoEditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DAEF2D082F370094A8D1 /* photoEditorApp.swift */; };
-		8D63DAF92D0832010094A8D1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DAF82D0832010094A8D1 /* AuthViewModel.swift */; };
-		8D63DAFB2D0832160094A8D1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DAFA2D0832160094A8D1 /* Model.swift */; };
-		8D63DAFD2D0833890094A8D1 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DAFC2D0833890094A8D1 /* ViewModifiers.swift */; };
-		8D63DAFF2D0837F70094A8D1 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DAFE2D0837F70094A8D1 /* AuthView.swift */; };
-		8D63DB022D0838510094A8D1 /* photoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DB012D0838510094A8D1 /* photoEditorView.swift */; };
+		8D63DB022D0838510094A8D1 /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D63DB012D0838510094A8D1 /* CanvasView.swift */; };
+		8DA514892D3B83AC009B1E70 /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514882D3B83AC009B1E70 /* TextBox.swift */; };
+		8DA5148B2D3B841F009B1E70 /* DrawingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5148A2D3B841F009B1E70 /* DrawingViewModel.swift */; };
+		8DA5148D2D3B8DFD009B1E70 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5148C2D3B8DFD009B1E70 /* MenuView.swift */; };
+		8DA514902D3B8E25009B1E70 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA5148F2D3B8E25009B1E70 /* String + Extension.swift */; };
+		8DA514922D3B90C9009B1E70 /* StarnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514912D3B90C9009B1E70 /* StarnView.swift */; };
+		8DA514942D3B9135009B1E70 /* DrawingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514932D3B9135009B1E70 /* DrawingScreen.swift */; };
+		8DA514962D3B91AE009B1E70 /* GeomentyReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514952D3B91AE009B1E70 /* GeomentyReaderView.swift */; };
+		8DA514982D3BA634009B1E70 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514972D3BA634009B1E70 /* ImagePicker.swift */; };
+		8DA5149A2D3BA893009B1E70 /* AddNewBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA514992D3BA893009B1E70 /* AddNewBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +46,16 @@
 		8D63DAEB2D082F370094A8D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D63DAED2D082F370094A8D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D63DAEF2D082F370094A8D1 /* photoEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoEditorApp.swift; sourceTree = "<group>"; };
-		8D63DAF82D0832010094A8D1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
-		8D63DAFA2D0832160094A8D1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		8D63DAFC2D0833890094A8D1 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
-		8D63DAFE2D0837F70094A8D1 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
-		8D63DB012D0838510094A8D1 /* photoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoEditorView.swift; sourceTree = "<group>"; };
+		8D63DB012D0838510094A8D1 /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		8DA514882D3B83AC009B1E70 /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		8DA5148A2D3B841F009B1E70 /* DrawingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewModel.swift; sourceTree = "<group>"; };
+		8DA5148C2D3B8DFD009B1E70 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		8DA5148F2D3B8E25009B1E70 /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		8DA514912D3B90C9009B1E70 /* StarnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarnView.swift; sourceTree = "<group>"; };
+		8DA514932D3B9135009B1E70 /* DrawingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingScreen.swift; sourceTree = "<group>"; };
+		8DA514952D3B91AE009B1E70 /* GeomentyReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomentyReaderView.swift; sourceTree = "<group>"; };
+		8DA514972D3BA634009B1E70 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8DA514992D3BA893009B1E70 /* AddNewBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -118,39 +128,60 @@
 		8D63DAF02D082F370094A8D1 /* photoEditor */ = {
 			isa = PBXGroup;
 			children = (
-				8D63DAF72D0831B60094A8D1 /* Model */,
-				8D63DAF52D082F440094A8D1 /* Auth */,
-				8D63DB002D0838420094A8D1 /* photoEditor */,
+				8DA5148E2D3B8E15009B1E70 /* Extension */,
+				8D63DB002D0838420094A8D1 /* CanvasScreen */,
 				8D63DAEC2D082F370094A8D1 /* Preview Content */,
 				8D63DAEF2D082F370094A8D1 /* photoEditorApp.swift */,
 			);
 			path = photoEditor;
 			sourceTree = "<group>";
 		};
-		8D63DAF52D082F440094A8D1 /* Auth */ = {
+		8D63DB002D0838420094A8D1 /* CanvasScreen */ = {
 			isa = PBXGroup;
 			children = (
-				8D63DAF82D0832010094A8D1 /* AuthViewModel.swift */,
-				8D63DAFC2D0833890094A8D1 /* ViewModifiers.swift */,
-				8D63DAFE2D0837F70094A8D1 /* AuthView.swift */,
+				8DA514862D3B8376009B1E70 /* ViewModel */,
+				8DA514852D3B8369009B1E70 /* View */,
+				8DA514872D3B8396009B1E70 /* Model */,
 			);
-			path = Auth;
+			path = CanvasScreen;
 			sourceTree = "<group>";
 		};
-		8D63DAF72D0831B60094A8D1 /* Model */ = {
+		8DA514852D3B8369009B1E70 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8D63DAFA2D0832160094A8D1 /* Model.swift */,
+				8DA514912D3B90C9009B1E70 /* StarnView.swift */,
+				8DA5148C2D3B8DFD009B1E70 /* MenuView.swift */,
+				8DA514932D3B9135009B1E70 /* DrawingScreen.swift */,
+				8DA514972D3BA634009B1E70 /* ImagePicker.swift */,
+				8DA514952D3B91AE009B1E70 /* GeomentyReaderView.swift */,
+				8D63DB012D0838510094A8D1 /* CanvasView.swift */,
+				8DA514992D3BA893009B1E70 /* AddNewBoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DA514862D3B8376009B1E70 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5148A2D3B841F009B1E70 /* DrawingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8DA514872D3B8396009B1E70 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DA514882D3B83AC009B1E70 /* TextBox.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8D63DB002D0838420094A8D1 /* photoEditor */ = {
+		8DA5148E2D3B8E15009B1E70 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				8D63DB012D0838510094A8D1 /* photoEditorView.swift */,
+				8DA5148F2D3B8E25009B1E70 /* String + Extension.swift */,
 			);
-			path = photoEditor;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,12 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D63DAFD2D0833890094A8D1 /* ViewModifiers.swift in Sources */,
-				8D63DB022D0838510094A8D1 /* photoEditorView.swift in Sources */,
-				8D63DAFF2D0837F70094A8D1 /* AuthView.swift in Sources */,
+				8D63DB022D0838510094A8D1 /* CanvasView.swift in Sources */,
+				8DA514962D3B91AE009B1E70 /* GeomentyReaderView.swift in Sources */,
+				8DA5148D2D3B8DFD009B1E70 /* MenuView.swift in Sources */,
+				8DA514942D3B9135009B1E70 /* DrawingScreen.swift in Sources */,
+				8DA514902D3B8E25009B1E70 /* String + Extension.swift in Sources */,
+				8DA5149A2D3BA893009B1E70 /* AddNewBoxView.swift in Sources */,
+				8DA514922D3B90C9009B1E70 /* StarnView.swift in Sources */,
+				8DA5148B2D3B841F009B1E70 /* DrawingViewModel.swift in Sources */,
+				8DA514982D3BA634009B1E70 /* ImagePicker.swift in Sources */,
+				8DA514892D3B83AC009B1E70 /* TextBox.swift in Sources */,
 				8D63DAF42D082F370094A8D1 /* photoEditorApp.swift in Sources */,
-				8D63DAF92D0832010094A8D1 /* AuthViewModel.swift in Sources */,
-				8D63DAFB2D0832160094A8D1 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +501,7 @@
 				DEVELOPMENT_TEAM = V36RW5TG62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -494,6 +531,7 @@
 				DEVELOPMENT_TEAM = V36RW5TG62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
