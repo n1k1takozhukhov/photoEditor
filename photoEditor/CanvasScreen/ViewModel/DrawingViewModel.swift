@@ -19,7 +19,6 @@ class DrawingViewModel: ObservableObject {
     @Published var isAddNewBox = false
     
     
-    
     ///func is called but the user exit tne editor and wants to return to the default state
     func cancelImegeEditor() {
         imageData = Data(count: 0) // this effect cant be delete current image

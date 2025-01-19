@@ -8,7 +8,7 @@ struct MenuView: View {
         Button(role: .destructive) {
             viewModel.isShowImagePicker = true
         } label: {
-            Text("processPhoto".localized)
+            Text("Обработать фото".localized)
                 .bold()
                 .foregroundColor(.white)
                 .frame(height: 55)
